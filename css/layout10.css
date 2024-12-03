@@ -1,0 +1,48 @@
+.shop-bg{
+  background-color: #eee;
+  padding: 20px;
+
+}
+
+.shop-container{
+  display: flex;
+  width: 90%;
+  margin: auto;
+}
+
+.shop-item {
+  width: 33%;
+  padding: 10px;
+}
+
+.shop-item img{
+  width: 100%;
+  display: block;
+}
+.overlay-wrap{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.overlay-black {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.3);
+  margin-top: 100%;
+  /* opacity: 0;   /*투명도 : 0~1*/
+  transition: all 1s; /*위에 있는 스타일이 변하면 1초동안 서서히 변하게 해주세요*/
+}
+
+.overlay-wrap:hover .overlay-black{
+  margin-top: 50%;
+}
+
+
+/* 애니메이션 만드는 루틴
+1. 시작스타일 만들기
+2. 최종스타일 만들기
+3. 언제 최종스타일로 변하는지
+4. transition으로 애니메이션 주기

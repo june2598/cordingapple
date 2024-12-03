@@ -1,0 +1,82 @@
+body{
+  background-color: #302b2b;
+}
+
+.container{
+  width: 300px;
+  height: 400px;
+  margin: 50px auto;
+  padding: 50px;
+  background-color: #fff;
+  
+}
+input{
+  box-sizing: border-box;
+}
+label{
+  margin-bottom: 5px;
+}
+
+.userInfo label{
+  display: block;
+}
+.userInfo input{
+  height: 30px;
+}
+
+input[type=email]{
+  display: block;
+  width: 100%;
+}
+
+.firstname{
+  width: 48%;
+  float: left;
+  margin-right: 2%;
+  margin-top:10px;
+  margin-bottom: 10px;
+}
+
+input[type=text]{
+  width: 100%;
+}
+
+.lastname{
+  width: 48%;
+  float: left;
+  margin-left: 2%;
+  margin-top:10px;
+  margin-bottom: 10px;
+}
+
+textarea{
+  width: 100%;
+  height: 150px;
+  resize: none;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  box-sizing: border-box;
+}
+
+.submenu{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+}
+.message{
+  clear: both;
+}
+input[type=checkbox]{
+  margin: 0;
+}
+
+.sendbtn button{
+  width: 100px;
+  background-color: orange;
+  border: none;
+  border-radius: 5px;
+  color: #eee;
+  height: 30px;
+ 
+}

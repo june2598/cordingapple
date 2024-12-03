@@ -1,0 +1,32 @@
+.flex-container{
+  display: flex;
+  justify-content: center;
+
+}
+
+.flex-item{
+  display: flex;
+  align-items: center;
+  width: 500px;
+  height: 50px;
+  background-color: grey;
+  margin: 5px;
+  padding: 10px;
+  font-size: 30px;
+  color: #fff;
+}
+
+.flex-3{
+  flex-grow: 3;
+}
+
+.flex-1{
+  flex-grow: 0.5;
+  font-size: 20px;
+  text-align: center;
+}
+
+
+.logo{
+  font-weight: bold;
+}

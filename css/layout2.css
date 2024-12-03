@@ -1,0 +1,67 @@
+/* *{
+  outline: 1px solid red;
+} */
+
+.container{
+  width: 700px;
+  height: 200px;
+}
+
+.main{
+  width: 70%;
+  height: 100%;
+  float: left;
+}
+
+.profile{
+  width: 50%;
+  height: 30%;
+  float: left;
+}
+
+.contentsWrap{
+  height: 70%;
+  float: left;
+}
+.profile-img{
+  display: inline-block;
+  width: 50%;  
+  height: 100%;
+  float: left;
+}
+
+.appleimg{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.userInfo{
+  display: inline-block;
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  align-content: center;
+  float: left;
+}
+
+.nickname{
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.connection-time{
+  font-size: 0.8rem;
+}
+
+.right-img{
+  width: 30%;
+  height: 100%;
+  float: left;
+}
+
+.lionimg{
+  width: 100%;
+  height: 100%;
+
+}
+

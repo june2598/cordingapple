@@ -1,0 +1,66 @@
+table{
+  width: 100%;
+  border: hidden;
+  border-collapse: collapse;
+}
+h1{
+  padding: 30px 0;
+}
+h2, p{
+  margin: 0;
+}
+
+p, .item, .amount, .price, h1{
+  font-weight: bold;
+  color: rgb(13, 66, 66);
+}
+
+.container{
+  box-sizing: border-box;
+  background-color: rgb(34, 203, 206);
+  
+}
+
+.inner-container{
+  width: 600px;
+  height: 500px;
+  margin: 30px auto;
+}
+
+.contents{
+  background-color: #fff;
+  border-radius: 10px;
+  
+}
+
+td{
+  border-bottom: 1px solid rgb(105, 124, 174);
+}
+
+.submenu{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+button{
+  width: 250px;
+  height: 50px;
+  background-color: darkblue;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+}
+
+.amount,
+.price,
+.total{
+  text-align: end;
+  padding: 10px;
+}
+
+.total{
+  font-weight: 800;
+  color: rgb(24, 24, 156);
+}
