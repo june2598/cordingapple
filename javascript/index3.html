@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/index3.css">
+</head>
+<body>
+  <div class="main-bg">
+    <h4>Shirts on Sale</h4>
+    <button -d="login" class="btn btn-danger">로그인</button>
+  </div>
+
+  <div class="alert alert-danger">5초 이내 구매시 사은품 증정</div>
+
+  <div class="alert alert-danger"><span id="time">5</span>초 이내 구매시 사은품 증정</div>
+
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+    <script>
+      // //setTimeout(콜백함수, ms단위 시간)  =>
+      // setTimeout(function(){
+      //   console.log('사라졌음')
+      //   // $('.alert').hide();
+      //   $('.alert').addClass('hide');
+      // }, 5000);
+
+      //setInterval : 1000ms마다 실행해줘
+
+      //case1)
+      // let count = 4;
+      // setInterval(function(){
+      //   if(count > 0){
+      //     console.log('1초경과');
+      //     $('.alert').html(count + '초 이내 구매시 사은품 증정');
+      //     count--;
+      //   } else{
+      //     console.log('사라져')
+      //     $('.alert').hide();
+      //   }
+      // }, 1000);
+
+      //case2)
+      let count = 4;
+      setInterval(function(){
+        if(count > 0){
+          $('#time').html(count);
+          count--;
+        }else{
+          console.log('뿅')
+          $('.alert').hide();
+        }
+        
+      },1000)
+
+
+
+    </script>
+</body>
+</html>
